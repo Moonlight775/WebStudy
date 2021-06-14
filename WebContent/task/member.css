@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body{
+	background-image:url(https://p4.wallpaperbetter.com/wallpaper/909/934/447/red-blue-soft-pastel-wallpaper-preview.jpg);
+	background-size:cover;
+}
+#signup input:focus, input:hover{
+	background-color:#c0c0c0;
+}
+
+h1{ 
+	text-align: center;
+}
+
+img{
+	border:0px;
+	width:100px;
+	height:80px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#signup{
+	position:relative;
+	width:100px;
+	height:50px;
+	
+	position:absolute;
+	left:50%;
+	margin-left:-260px ;
+}
+
+#signup label{
+	font-size: 20px;
+}
+
+#signup .button_box input{
+	font-size: 20px;
+}
+
+ul{
+	list-style:none;
+	padding-left:0px;
+}
+
+#info input{
+	width:500px;
+	height:35px;
+	border-radius:7px;
+}
+
+span{color:red;}
+
+.button_box{width:508px;
+			height:70px;
+			position: relative;
+			display:inline-block;
+			
+}
+	
+.submit{position: absolute;
+		left: 0px;
+		width:200px;
+		height:70px;
+		background-color:#43aefe;
+		color:white;
+		border-radius:7px;
+}
+.reset{position: absolute;
+    	width:200px;
+		height:70px;
+		right: 0px;
+		border-radius:7px;		
+}

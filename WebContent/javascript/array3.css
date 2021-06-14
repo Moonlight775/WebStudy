@@ -1,0 +1,104 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#array3{
+	width: 800px;
+	margin: 50px auto;
+}
+#array3 input:focus, input:hover{
+	background-color:#eee;
+	cursor: pointer;
+}
+
+/*------ 왼쪽 영역 ----------*/
+#array3 .left{
+	width: 300px;
+	float: left;
+	border: 3px solid #aaa;
+	padding: 30px;
+	min-height: 250px;
+	box-shadow: 2px 2px 4px 2px #888;
+}
+
+.left form>label{
+	display: inline-block;
+	width:70px;
+	text-align: right;
+}
+
+.left form>input[type=text]{
+	width: 100px;
+	border-radius: 4px;
+}
+
+.left .btn_zone{
+	text-align: center;
+}
+
+.left form input[type=button]{
+	width: 50px;
+	text-align: center;
+}
+
+.left hr{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+
+
+/* ------ 오른쪽 영역 -------- */
+
+#array3 .right{
+	width: 500px;
+	float: right;
+	border: 3px solid #aaa;
+	padding: 30px;
+	min-height: 250px;
+	box-shadow: 2px 2px 4px 2px #888;
+}
+
+.right span{
+	display: inline-block;
+	line-height: 24px;
+}
+
+.right .title{
+	background-color: #ccc;
+	padding-left: 10px;
+}
+
+.title>.mid{ width: 80px;}
+.title>.kor{ width: 80px;}
+.title>.mat{ width: 80px;}
+.title>.tot{ width: 80px;}
+.title>.avg{ width: 80px;}
+
+/* ------ 상태 표시줄 영역 ------ */
+#array3 #info{
+	clear: both;
+	background-color: #ddd;
+	color: #f00;
+	text-align: center;
+	padding: 6px 0;
+}
+
+#array3 #items div span{
+	display: inline-block;
+	line-height: 24px;
+	width: 80px;
+	text-align: center;
+	padding-right: 30px;
+}
+
+#array3 #items div>span{
+	padding-right: 10px;
+}
+
+
+
+

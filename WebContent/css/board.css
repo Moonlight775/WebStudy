@@ -1,0 +1,131 @@
+/* -----------------------
+	게시판과 관련한 스타일
+	작성자 : 문관영
+	작성일 : 2021.04
+   -----------------------
+*/
+@charset "UTF-8";
+#board{
+	width:700px;
+}
+
+#board form #space{
+	margin-bottom:6px;
+}
+
+#board>h1{
+	font-size:16pt;
+	margin-bottom:20px;
+}
+#board #btn_zone{
+	text-align:center;
+	width:700px;
+	height:40px;
+	margin-top:10px;
+	padding-top:10px;
+	border-top:2px dotted #777;
+	border-color:#787878;
+	position:relative;
+}
+#board #btn_zone input[type=reset], #button{
+	width:60px;
+	height:30px;
+	border-radius:8px;
+}
+
+#board #btn_zone #num{
+	width:30px;
+	background-color:#92dcda;
+	}
+	
+#board #btn_zone #num:hover{
+	background-color: #ddd;
+	cursor: pointer;
+}
+
+#board form>label{
+	display:inline-block;
+	width:80px;
+	text-align:left;
+}
+#board form>textarea{
+	width:650px;
+	height:300px;
+	margin-top:3px;
+}
+#board form>input[name=subject]{
+	width:300px;
+}
+
+/*-------검색 (search) ----------------*/
+#board .find_zone{
+	display:inline-block;
+	float:right;
+}
+
+#board .title{
+	border-top:2px solid #aaa;
+	border-bottom:2px solid #888;
+}
+
+#board .title>span, #board .item>span{
+	display:inline-block;
+}
+
+#board .item:hover{
+		background-color : #ddd;
+		cursor: pointer;
+}
+
+#board .title>.no, #board .item>.no{
+	width:60px; text-align:center;
+	}
+#board .title>.subject, #board .item>.subject{
+	width:70px; text-align:center;
+	}
+#board .title>.date, #board .item>.date{
+	width:150px; text-align:center;
+	}
+#board .title>.mid, #board .item>.mid{
+	width:70px; text-align:center;
+	}
+#board .title>.hit, #board .item>.hit{
+	width:80px; text-align:center;
+	}
+
+/* 이미지 프리뷰 */
+#image_preview #attzone .item{
+     width: 130px;
+     height: 150px;
+     margin: 5px;
+     position: relative;
+     display: inline-block;
+  }
+	
+  #attzone .del_btn{
+	 position: absolute;
+	 font-size: 24pt;
+	 color: #ff0000;
+	 right: 3px;
+	 bottom: 3px;
+	 background-color: rgba(255,255,255,.2);
+	 padding: 0;
+	 border-width: 0;
+	 cursor: pointer;
+  }
+  #attzone img{
+  	width: 100%;
+  	height: 100%;
+  }
+  #attzone{
+  	width: 100%;
+  	min-height: 200px;
+  	border: 1px dotted #aaa;
+  	background-color: #eeeeee73;
+  	margin-top: 10px;
+  }
+
+
+
+
+
